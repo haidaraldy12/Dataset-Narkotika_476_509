@@ -1,16 +1,47 @@
-# Scraping Direktori Putusan Narkotika Pengadilan Negeri Padang
+# Dataset-Narkotika_509_476.
 
-## About Web Scraping
--Ind
-Scraping web atau web scraping adalah proses pengambilan informasi dari halaman web secara otomatis. Ini dilakukan menggunakan perangkat lunak atau skrip untuk mengekstrak data dari berbagai situs web. Teknik ini memungkinkan untuk mengumpulkan informasi yang tersedia di internet dan menyimpannya dalam format yang dapat diakses dan dianalisis.
--Eng
-Web scraping is the process of extracting information from web pages automatically. It involves using software or scripts to gather data from various websites. This technique enables the collection of information available on the internet and stores it in an accessible and analyzable format.
+**Scraping Data Putusan Mahkamah Agung - README**
 
-## Purposes
--Ind
-Pengambilan informasi dari Direktori Putusan Mahkamah Agung yang berkaitan dengan putusan kasus narkotika di Pengadilan Negeri Padang merupakan bagian dari kegiatan studi yang ditujukan untuk penggunaan yang bermanfaat di masa depan. Data yang dikumpulkan diharapkan dapat menjadi landasan untuk analisis statistik, riset mendalam, serta pemetaan tren yang relevan. Dengan mengintegrasikan informasi dari putusan tersebut, diharapkan dapat menyediakan landasan data yang kuat untuk kegiatan yang bernilai seperti penelitian hukum, analisis kebijakan, dan pemahaman yang lebih mendalam terkait kasus-kasus narkotika dalam ranah hukum.
--Eng
-The collection of information from the Directory Putusan Mahkamah Agung regarding narcotics cases in the Padang District Court is part of a study activity aimed at future beneficial applications. The gathered data is envisioned to serve as a foundation for statistical analysis, in-depth research, and the identification of relevant trends. By integrating information from these decisions, it is anticipated to provide a robust data foundation for valuable activities such as legal research, policy analysis, and a deeper understanding of narcotics cases within the legal domain.
+# Tujuan Scrapping Data Putusan Mahkamah Agung
 
-## Directory Putusan MA
-You can access the Directory Putusan MA at [Directory Putusan MA](https://putusan3.mahkamahagung.go.id/search.html) - HTML
+## Deskripsi
+
+Proyek ini bertujuan untuk mengumpulkan data putusan Mahkamah Agung Republik Indonesia menggunakan teknik *web scraping*. Data yang diperoleh melibatkan informasi hukum seperti nomor putusan, lembaga peradilan, barang bukti, dan amar putusan.
+
+## Mengapa Scrapping Diperlukan?
+
+1. **Aksesibilitas Informasi**: Memastikan bahwa informasi putusan Mahkamah Agung dapat diakses dengan mudah dan cepat oleh berbagai pihak, termasuk masyarakat umum, praktisi hukum, dan peneliti.
+
+2. **Analisis Hukum**: Menyediakan data yang dapat digunakan untuk analisis hukum, termasuk tren hukum, statistik peradilan, dan evaluasi putusan tertentu.
+
+3. **Transparansi dan Akuntabilitas**: Meningkatkan transparansi dan akuntabilitas sistem peradilan dengan memberikan akses terbuka ke putusan-putusan yang dikeluarkan oleh Mahkamah Agung.
+
+## Penggunaan Data
+
+Data yang diperoleh dari proses *web scraping* dapat digunakan untuk:
+
+- **Penelitian Hukum**: Menganalisis kebijakan hukum, tren, dan dampak putusan tertentu.
+- **Pemantauan Peradilan**: Mengikuti perkembangan dalam sistem peradilan dan melacak putusan yang relevan.
+- **Pengembangan Aplikasi Hukum**: Membangun aplikasi atau alat yang memanfaatkan data putusan Mahkamah Agung.
+
+## Cara Menggunakan Scraper
+
+1. **Persiapkan Lingkungan**: Pastikan Anda memiliki Python dan pustaka yang dibutuhkan yang tercantum dalam file `requirements.txt`.
+
+2. **Unduh Kode**: Unduh atau klon kode dari repositori ini.
+
+3. **Atur Parameter**: Sesuaikan parameter scraper sesuai kebutuhan Anda, seperti kata kunci, URL, atau opsi lainnya dalam file `scraper.py`.
+
+4. **Jalankan Scraper**: Jalankan file `scraper.py` untuk memulai proses *web scraping*.
+
+5. **Analisis Data**: Setelah selesai, hasil scraping akan disimpan dalam file CSV yang dapat diimpor dan dianalisis menggunakan alat atau aplikasi analisis data.
+
+## Disclaimer
+
+Proyek ini dilakukan dengan itikad baik dan tujuan yang sah untuk meningkatkan aksesibilitas dan analisis informasi hukum. Penggunaan data yang diperoleh seharusnya mematuhi aturan hukum dan etika.
+
+Untuk informasi lebih lanjut atau pertanyaan, silakan hubungi [kontak pengembang](mailto:developer@example.com).
+
+---
+
+*Disclaimer: Proyek ini hanya untuk tujuan demonstrasi dan edukasi, dan penggunaan pada skala besar mungkin memerlukan perhatian tambahan terhadap etika dan legalitas.*
